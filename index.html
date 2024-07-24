@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter using JS API</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="divMain">
+
+        <header>
+            <h1>Currency Converter</h1>
+        </header>
+
+        <div id="contentDiv">
+
+            <div id="splitDiv">
+                <div id="fromDiv">
+                    <p>FROM</p>
+                    <select id="from" class="select">
+                        <option value="USD">USD</option>
+                        <option value="INR">INR</option>
+                        <option value="EUR">EUR</option>
+                        <option value="AUD">AUD</option>
+                    </select><br>
+                    <input id="inputVal" class="textVal" type="number" placeholder="Enter Value">
+                </div>
+                <div id="toDiv">
+                    <p>TO</p>
+                    <select id="to" class="select">
+                        <option value="INR">INR</option>
+                        <option value="USD">USD</option>
+                        <option value="EUR">EUR</option>
+                        <option value="AUD">AUD</option>
+                    </select><br>
+                    <input id="outputVal" class="textVal" type="text" placeholder="Converted Amount" disabled>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
